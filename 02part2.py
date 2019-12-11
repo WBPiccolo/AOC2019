@@ -31,8 +31,10 @@ def main():
                     x[c]=x[a]*x[b]
                 i += 4
             #print(x)
-        if x[0] == target:
-            print(x)
+            if x[0] == target:
+                print(x)
+                # What is 100 * noun + verb?
+                print(100*x[1]+x[2])
     #dovrebbe essere 3500,9,10,70, 2,3,11,0, 99 ,30,40,50
 if __name__ == "__main__":
     main()
